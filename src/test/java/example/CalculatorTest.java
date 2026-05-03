@@ -1,4 +1,4 @@
-package java.example;
+package example;
 
 import org.example.Calculator;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ public class CalculatorTest {
     public void testAdd() {
         Calculator calc = new Calculator();
         // Kiểm tra 5 + 10 = 15
-        assertEquals(99, calc.add(5, 10));
+        assertEquals(15, calc.add(5, 10));
     }
 
     @Test
