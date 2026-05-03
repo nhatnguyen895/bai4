@@ -1,6 +1,5 @@
-package example;
+package org.example;
 
-import org.example.Calculator;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
