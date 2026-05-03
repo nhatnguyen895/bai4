@@ -1,11 +1,9 @@
-package org.example;
-
-import org.junit.jupiter.api.Test;
+package java.org.example;
 
 import java.io.File;
 import java.nio.file.Path;
-import java.nio.file.Paths;
-
+import java.org.example.Calculator;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
@@ -15,6 +13,7 @@ public class CalculatorTest {
         // Kiểm tra 5 + 10 = 15
         assertEquals(99, calc.add(5, 10));
     }
+
     @Test
     public void testFilePathOS() {
         // Cố tình gõ đường dẫn cứng theo kiểu Windows (dùng dấu \)
