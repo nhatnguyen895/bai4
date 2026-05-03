@@ -7,8 +7,9 @@ jobs:
   build:
     # 1. Khai báo chiến lược Matrix
     strategy:
+      fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
 
     # 2. Rút linh hoạt hệ điều hành từ ma trận ở trên
     runs-on: ${{ matrix.os }}
