@@ -1,9 +1,10 @@
-package java.org.example;
+package java.example;
+
+import org.example.Calculator;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.nio.file.Path;
-import java.org.example.Calculator;
-import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
